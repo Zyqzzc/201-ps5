@@ -20,6 +20,8 @@ data <- read_delim("Data/gapminder.csv")
 ``` {r}
 dim <- dim(data)
 cat("there are", dim, "rows and columns, respectively")
+
+simple_n(data, 5)
 ```
 
 # 2 Descriptive statistics
